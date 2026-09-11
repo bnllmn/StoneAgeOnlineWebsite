@@ -15,6 +15,15 @@ export type UpdatePostData = {
 export const posts: UpdatePostsData = {
   updatePosts: [
     {
+      id: 3,
+      author: 'Ben',
+      postDate: '3rd September 2026',
+      title: 'Live beta launch 9/13/2026',
+      landingsummary: 'Launching the beta server live for any playtesters',
+      body: 'The live server for the game is on the way! Scheduled for 9/13 to be online and ready for players to login and test the games features. Check the website for more information on how to access the server and playtest.',
+      picture: 'SALogin.png'
+    },
+    {
       id: 2,
       author: 'Ben',
       postDate: '18th October 2024',
